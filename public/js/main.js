@@ -1,5 +1,7 @@
 document.querySelector('.getPhoto').addEventListener('click', getFetch)
 document.querySelector('.toggle').addEventListener('click', toggleShip)
+document.querySelector('.toggle-text').addEventListener('click', toggleText)
+
 
 function getFetch(){
   const choice = document.querySelector('input').value
@@ -26,6 +28,15 @@ function getFetch(){
 
 function toggleShip(){
   let x = document.getElementById("spaceship");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function toggleText(){
+  let x = document.getElementById("descText");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

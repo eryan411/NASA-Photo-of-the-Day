@@ -51,12 +51,8 @@ html{
 }
 
 .text{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-
-  height: 300px;
+  padding: 5%;
+  height: 400px;
   min-width: 340px;
   
   background-color: beige;
@@ -64,13 +60,13 @@ html{
   border-radius: 5px;
 }
 
+.toggle-text{
+  margin-top: 10%;
+}
+
 .desc{
   background-color: gray;
   opacity: 75%;
-}
-
-.toggle{
-  margin-bottom: 10%;
 }
 
 /******************************************
