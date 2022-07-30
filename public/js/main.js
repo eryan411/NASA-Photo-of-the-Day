@@ -1,4 +1,3 @@
-//Example fetch using pokemonapi.co
 document.querySelector('.getPhoto').addEventListener('click', getFetch)
 document.querySelector('.toggle').addEventListener('click', toggleShip)
 

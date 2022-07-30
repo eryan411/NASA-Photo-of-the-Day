@@ -57,6 +57,7 @@ html{
   align-items: center;
 
   height: 300px;
+  min-width: 340px;
   
   background-color: beige;
   opacity: 75%;
@@ -68,6 +69,9 @@ html{
   opacity: 75%;
 }
 
+.toggle{
+  margin-bottom: 10%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
