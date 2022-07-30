@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.spaceship{
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  visibility: visible;
+}
+
+.space{
+  margin-top: 0;
+  position: fixed;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.spaceVid{
+  position: fixed;
+  z-index: -1;
+}
+
+.container{
+  width: 25%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 300px;
+  
+  background-color: beige;
+  opacity: 75%;
+  border-radius: 5px;
+}
+
+.desc{
+  background-color: gray;
+  opacity: 75%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
