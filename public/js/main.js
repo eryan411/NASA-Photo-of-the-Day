@@ -30,8 +30,10 @@ function toggleShip(){
   let x = document.getElementById("spaceship");
   if (x.style.display === "none") {
     x.style.display = "block";
+    document.getElementById('spaceshipbutton').innerText = 'Get out of your spacecraft'
   } else {
     x.style.display = "none";
+    document.getElementById('spaceshipbutton').innerText = 'Get in your spacecraft'
   }
 }
 
